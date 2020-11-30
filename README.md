@@ -11,6 +11,7 @@ Basic player details
     "position": "DE",
     "teamID": "CHI",
     "draftSeason": 2019,
+    "draftNum": 34, // 1-224 (1 = first pick)
     "appearance": [
       "Head4",
       "Eyes2",
@@ -41,37 +42,47 @@ These are contracts and/or expectations
 
 The following are rating stats (from 40 - 99)
 
-    "zoneCover": 0,
-    "catching": 0,
-    "mPassAcc": 0,
+    Physical - All players
+    "speed": 54
+    "burst": 53,
+    "power": 72,
     "agility": 50,
+    "jumping": 70,
+    "stamina": 0,
+    "injuryProne": 89, // 99 is highest likelihood
+    
+    Mental - All players
     "discipline": 6,
+    "intelligence": 89,
+    "loyalty": 93,
+    "greed": 63,
+    "ambition": 32,
+    "decisions": 20,
+    "vision": 75,
+    
+    Passing
+    "sPassAcc": 0,
+    "mPassAcc": 0,
+    "dPassAcc": 0,
     "throwOnRun": 0,
+    
+    Off Skill
+    "routeRun": 0,
+    "catching": 0,
     "passBlock": 0,
     "rushBlock": 0,
-    "releaseLine": 91,
-    "injuryProne": 89, // 99 is highest likelihood
-    "dPassAcc": 0,
-    "stamina": 0,
-    "intelligence": 89,
-    "jumping": 70,
-    "routeRun": 0,
-    "loyalty": 93,
-    "power": 72,
-    "sPassAcc": 0,
-    "ambition": 32,
     "ballSecurity": 0,
-    "blockShedding": 94,
-    "greed": 63,
-    "draftNum": 34,
     "trucking": 0,
-    "tackle": 50,
-    "decisions": 20,
     "kickAccuracy": 0,
-    "ballStrip": 74,
-    "elusiveness": 0,
-    "skillMove": 50,
+    
+    Defence Skill
+    "zoneCover": 0,
     "manCover": 0,
-    "burst": 53,
-    "vision": 75,
-    "speed": 54
+    "blockShedding": 94,
+    "ballStrip": 74,
+    "tackle": 50,
+    
+    Both
+    "elusiveness": 0,
+    "releaseLine": 91,
+    "skillMove": 50,
