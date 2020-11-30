@@ -3,7 +3,8 @@
 JSON is the current base player list within PGM21 beta. This shows the format which should be followed for any custom rosters.
 
 Basic player details
-    "iden": "5A251D07-3C9D-4BD1-B511-FD20CA81227C",
+
+    "iden": "5A251D07-3C9D-4BD1-B511-FD20CA81227C", // You can ignore this. This is generated afresh on import.
     "forename": "Frank",
     "surname": "Jackson",
     "age": 23,
@@ -24,11 +25,13 @@ Basic player details
     - beardOptions = [1,2,3,4] (1 = none, 2 = short beard, 3 = med beard, 4 = tash)
     
 Player potential and development
+
     "potential": 22, // From 1-30. This represents the TOTAL development over a players career, not just the remaining!
     "growthType": 0, // Represents development distribution (0 = Very early dev (70% Yr1), 1= Mid Dev (45% Yr1), 2 = Late Dev (35% Yr1))
     "rating": 81, // This will be replaced, so you can ignore this
     
 These are contracts and/or expectations
+
     "eLength": 2,
     "length": 2,
     "eSalary": 640860,
@@ -37,6 +40,7 @@ These are contracts and/or expectations
     "eGuarantee": 1301140,
 
 The following are rating stats (from 40 - 99)
+
     "zoneCover": 0,
     "catching": 0,
     "mPassAcc": 0,
